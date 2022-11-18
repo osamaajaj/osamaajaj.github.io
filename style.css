@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "azonix", "Montserrat", "arial", "sans-serif";
+}
+
+header{
+    display: flex;
+    background-color: rgb(0, 105, 146);
+    height: 45px;
+    align-items: center;
+    margin: 3px, 0;
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo{
+    padding: 60px;
+}
+.logo a{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    text-align: center;
+}
+.main .cover{
+    width: 100%;
+    height: 100%;
+}
+
+.cover img{
+    width: 100%;
+    height: 100%;
+}
+
+.cover .unvan{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    color: aliceblue;
+    font-size: 7.5rem;
+}
+
+.cover .ihti{
+    position: absolute;
+    right: 200px;
+    top: 270px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: aliceblue;
+    font-size: 3.3rem;
+    
+}
+
+
+.cio-photo{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    position: absolute;
+    left: 100px;
+    bottom: -85px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.cio-photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+
+.contact-logo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.contact-logo a{
+    text-decoration: none;
+    display: flex;
+    margin-left: 90px;
+}
+
+.contact-logo a:hover{
+    opacity: 0.8;
+
+}
+
+.contact-logo .fa-whatsapp{
+    font-size: 7rem;
+    background-color: rgb(0, 177, 15);
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.contact-logo .fa-instagram{
+    font-size: 7rem;
+    background-color: #C13584;
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.contact-logo .fa-facebook-f{
+    font-size: 7rem;
+    background-color: rgb(66, 103, 178);
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.contact-logo .fa-twitter{
+    font-size: 7rem;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.contact-logo .fa-location-dot{
+    font-size: 7rem;
+    background-color: rgb(0 0 0);
+    color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.sah a{
+    background-color: rgb(219, 186, 0);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.sah img{
+    width: 60%;
+    height: 60%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 105, 146);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.footer .text{
+    padding-left: 60px;
+    
+}
+
+.text span{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+@media (max-width:1080px){
+    .logo{
+        padding: 20px;
+
+    }
+
+    .logo a{
+        font-size: 1.5rem;
+    }
+
+    .main{
+        height: 300px;
+    }
+
+    .cover img{
+        height: 300px;
+    }
+
+    .cover .unvan{
+        position: absolute;
+        right: 30px;
+        top: 100px;
+        font-size: 3.5rem;
+    }
+
+    .cover .ihti{
+        position: absolute;
+        right: 30px;
+        top: 140px;
+        font-weight: 200;
+        letter-spacing: 4px;
+        font-size: 1.1rem;
+    }
+
+    .cio-photo{
+        bottom: -100px;
+    }
+
+    .contact{
+        margin-left: 20px;
+        margin-top: 140px;
+        margin-right: 20px;
+    }
+    
+    .contact-logo{
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .contact-logo a{
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    .contact-logo .fa-whatsapp{
+        font-size: 6rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-instagram{
+        font-size: 6rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-facebook-f{
+        font-size: 6rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-twitter{
+        font-size: 6rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-location-dot{
+        font-size: 6rem;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sah a{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sah img{
+        width: 60%;
+        height: 60%;
+    }
+}
+
+
+
+@media (max-width:380px){
+    .footer{
+        bottom: 0;
+        position: sticky;
+        height: 1.5rem;
+    }
+    .contact-logo .fa-whatsapp{
+        font-size: 7rem;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .contact-logo .fa-instagram{
+        font-size: 7rem;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .contact-logo .fa-facebook-f{
+        font-size: 7rem;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .contact-logo .fa-twitter{
+        font-size: 7rem;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .contact-logo .fa-location-dot{
+        font-size: 7rem;
+        width: 130px;
+        height: 130px;
+    }
+
+    .sah a{
+        width: 130px;
+        height: 130px;
+    }
+
+    .sah img{
+        width: 40%;
+        height: 40%;
+    }
+}
+
+
+
+
+@media (max-width:555px){
+    .footer{
+        bottom: 0;
+        position: sticky;
+        height: 1.9rem;
+    }
+}
+
+
+
+
+@media (max-width:775px){
+    .footer{
+        bottom: 0;
+        position: fixed;
+        height: 2.9rem;
+    }
+
+    .contact-logo .fa-whatsapp{
+        font-size: 9rem;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .contact-logo .fa-instagram{
+        font-size: 9rem;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .contact-logo .fa-facebook-f{
+        font-size: 9rem;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .contact-logo .fa-twitter{
+        font-size: 9rem;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .contact-logo .fa-location-dot{
+        font-size: 9rem;
+        width: 170px;
+        height: 170px;
+    }
+
+    .sah a{
+        width: 170px;
+        height: 170px;
+    }
+
+    .sah img{
+        width: 60%;
+        height: 60%;
+    }
+}
+
+
+
+
+@media (max-width:915px){
+    .footer{
+        bottom: 0;
+        position: fixed;
+        height: 4.9rem;
+    }
+
+    .contact-logo .fa-whatsapp{
+        font-size: 11.5rem;
+        width: 220px;
+        height: 220px;
+    }
+    
+    .contact-logo .fa-instagram{
+        font-size: 11.5rem;
+        width: 220px;
+        height: 220px;
+    }
+    
+    .contact-logo .fa-facebook-f{
+        font-size: 11.5rem;
+        width: 220px;
+        height: 220px;
+    }
+    
+    .contact-logo .fa-twitter{
+        font-size: 11.5rem;
+        width: 220px;
+        height: 220px;
+    }
+    
+    .contact-logo .fa-location-dot{
+        font-size: 11.5rem;
+        width: 220px;
+        height: 220px;
+    }
+
+    .sah a{
+        width: 215px;
+        height: 215px;
+    }
+
+    .sah img{
+        width: 66%;
+        height: 66%;
+    }
+
+}
+
+
+
+@media (max-width:415px){
+    .footer{
+        bottom: 0;
+        position: fixed;
+        height: 2.9rem;
+    }
+
+    .contact-logo .fa-whatsapp{
+        font-size: 5rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-instagram{
+        font-size: 5rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-facebook-f{
+        font-size: 5rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-twitter{
+        font-size: 5rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-logo .fa-location-dot{
+        font-size: 5rem;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sah a{
+        width: 100px;
+        height: 100px;
+    }
+
+    .sah img{
+        width: 44%;
+        height: 44%;
+    }
+
+}
+
+
+
+@media (max-width:282px){
+    
+    .main{
+        height: 210px;
+    }
+
+    .cover img{
+        height: 210px;
+    }
+    
+    .cover .unvan{
+        font-size: 2.6rem;
+        top: 80px;
+    }
+
+    .cover .ihti{
+        font-size: 0.6rem;
+        font-weight: 400;
+        top:105px ;
+    }
+
+    .cio-photo{
+        left: 65px;
+        width: 150px;
+        height: 150px;
+        bottom: -60px;
+    }
+
+    .contact{
+        margin-top: 70px;
+    }
+
+    .contact-logo .fa-whatsapp{
+        font-size: 5rem;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .contact-logo .fa-instagram{
+        font-size: 5rem;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .contact-logo .fa-facebook-f{
+        font-size: 5rem;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .contact-logo .fa-twitter{
+        font-size: 5rem;
+        width: 90px;
+        height: 90px;
+    }
+    
+    .contact-logo .fa-location-dot{
+        font-size: 5rem;
+        width: 90px;
+        height: 90px;
+    }
+
+    .sah a{
+        width: 90px;
+        height: 90px;
+    }
+
+    .sah img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .footer{
+        bottom: 0;
+        position: fixed;
+        height: 2.9rem;
+    }
+
+    .footer .text{
+        padding-left: 20px;
+    }
+
+    .footer .text span{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:1282px){
+    .footer{
+        position: fixed;
+    }
+
+    
+}
